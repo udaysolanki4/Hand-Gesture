@@ -26,9 +26,9 @@ backward, right and left when we tilt our palm to forward,
 backward, right and left respectively and the robot stops
 when our palm is parallel to the ground.
 
-##Components
+## Components
 
-###Arduino nano
+### Arduino nano
 Arduino nano It is a microcontroller board based on
 ATmega328 which has 14 digital I/O and 6 analog pins. It
 has everything that is needed to support the microcontroller.
@@ -39,7 +39,7 @@ environment by receiving input from a variety of sensors
 and can affect its surroundings by controlling lights, motors,
 and other actuators.
 
-###Accelerometer (ADXL335)
+### Accelerometer (ADXL335)
 The ADXL335 is a small, thin, low power, complete 3-axis
 accelerometer with signal conditioned voltage outputs. It has
 5 pins. 3 pins is for X, Y, Z axis. First pin for power supply
@@ -50,7 +50,7 @@ of gravity from tilt sensing applications as well as dynamic
 acceleration resulting from motion, shock or vibration and
 gives corresponding analog values through X, Y, Z axis pins.
 
-###RF Transmitter & Receiver
+### RF Transmitter & Receiver
 The transmitter module is working on the frequency of
 433MHz. In the circuit, Vcc pin is connected to the + terminal.
 The data pin is connected to the HT12E (Encoder) that is
@@ -64,7 +64,7 @@ terminal. Connect the ground pin to the ground terminal .The
 data pin is then connected to the HT12D (Decoder) .So that
 we can get the decoded 4 bit data.
 
-###Motor Driver
+### Motor Driver
 Motor Driver works on the concept of H-bridge. H-bridge is a
 circuit which allows the voltage to flow in either direction. As
 voltage need to change its direction for being able to rotate
@@ -74,7 +74,7 @@ chip there are two h-Bridge circuit inside the IC which can
 rotate two dc motor independently. Due to its size it is very
 much used in robotic application for controlling DC motors.
 
-###DC Motor
+### DC Motor
 DC motor is used for the conversion of direct current into
 mechanical motion. The mechanical motion could be rotary
 or linear. The operation of DC motor is based on the principle
@@ -85,7 +85,7 @@ voltage applied to the armature or by changing the field
 current. DC motors can be used for the movement of the
 robotic car.
 
-###Battery
+### Battery
 A battery is a device consisting of one or more
 electrochemical cells. A battery is device that directly
 converts chemical energy to the electrical energy. The
